@@ -1,0 +1,8 @@
+require('settings')
+require('plugins')
+require('tree-config')
+require('other-plugins-config')
+require('keymaps')
+require('autocomplete')
+require('dbg_conf')
+require('utils')
