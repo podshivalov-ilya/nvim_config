@@ -2,12 +2,6 @@ local dap = require("dap")
 local dapui = require("dapui")
 local dap_virtual_text = require("nvim-dap-virtual-text")
 
-require("mason").setup()
-local mason_dap = require("mason-nvim-dap").setup({
-    ensure_installed = { "codelldb" },
-    automatic_installation = true,
-})
-
 dapui.setup()
 dap_virtual_text.setup({})
 

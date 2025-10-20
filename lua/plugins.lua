@@ -10,7 +10,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     "vim-scripts/a.vim",
-    "kenn7/vim-arsync",
     "m-pilia/vim-ccls",
     "lervag/vimtex",
     "easymotion/vim-easymotion",
@@ -28,7 +27,6 @@ require("lazy").setup({
     "nvim-lualine/lualine.nvim",
     "windwp/nvim-autopairs",
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
-    "neovim/nvim-lspconfig",
     "hrsh7th/nvim-cmp",
     "hrsh7th/cmp-nvim-lsp",
 
@@ -38,9 +36,6 @@ require("lazy").setup({
             "rcarriga/nvim-dap-ui",
             "theHamsta/nvim-dap-virtual-text",
             "nvim-neotest/nvim-nio",
-            "williamboman/mason.nvim",
-            "williamboman/mason-lspconfig.nvim",
-            "jay-babu/mason-nvim-dap.nvim",
         }
     },
     {
@@ -51,5 +46,11 @@ require("lazy").setup({
             "nvim-tree/nvim-web-devicons",
             "MunifTanjim/nui.nvim",
         },
-    }
+    },
+    "hrsh7th/cmp-buffer",
+    "hrsh7th/cmp-path",
+    "L3MON4D3/LuaSnip",
+    "saadparwaiz1/cmp_luasnip",
+    "folke/tokyonight.nvim",
+    "EdenEast/nightfox.nvim"
 })
