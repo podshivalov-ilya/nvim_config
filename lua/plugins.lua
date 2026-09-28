@@ -52,5 +52,6 @@ require("lazy").setup({
     "L3MON4D3/LuaSnip",
     "saadparwaiz1/cmp_luasnip",
     "folke/tokyonight.nvim",
-    "EdenEast/nightfox.nvim"
+    "EdenEast/nightfox.nvim",
+    "mechatroner/rainbow_csv"
 })
